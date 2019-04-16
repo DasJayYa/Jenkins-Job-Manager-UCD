@@ -52,7 +52,7 @@ dependencies {
     // groovy-plugin-utils pulls down groovy-all as a transitive dependency for the 'compile' configuration
     compile group: 'com.ibm.urbancode.plugins', name: 'groovy-plugin-utils', version: '1.0'
     // https://mvnrepository.com/artifact/org.jenkins-ci.main/cli
-    compile group: 'org.jenkins-ci.main', name: 'cli', version: '1.651.3'
+    compile group: 'org.jenkins-ci.main', name: 'cli', version: '2.150.3'
 
     // This compiles the i18n-scraper script
     compile localGroovy()
