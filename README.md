@@ -1,4 +1,4 @@
-# IBM UrbanCode Deploy Jenkins Job Manager Plug-in [![Build Status](https://travis-ci.org/IBM-UrbanCode/Jenkins-Job-Manager-UCD.svg?branch=master)](https://travis-ci.org/IBM-UrbanCode/Jenkins-Job-Manager-UCD)
+# IBM UrbanCode Deploy Jenkins Job Manager Plug-in [![Build Status](https://travis-ci.org/DasJayYa/Jenkins-Job-Manager-UCD.svg?branch=master)](https://travis-ci.org/DasJayYa/Jenkins-Job-Manager-UCD)
 ---
 Note: This is not the plug-in distributable! This is the source code. The installable zip is located under the "releases" tab.
 
