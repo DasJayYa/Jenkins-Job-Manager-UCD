@@ -21,10 +21,10 @@ notifications:
 deploy:
   provider: releases
   api_key:
-    secure: dUKBraaa1C3WAdJXkk5n6iDz4/QUx8WQwaeZ6E2DYOGmtI6658CpJhJTs9YRgbew6rKO7awioj3T/GRcWyWCAn/M2QqJQMsE/TDsrlo+W4ETLEjsbUfMBfyu47e8WT7/NsSEi2XTTEOfWT6ew4Uhy6VV5Cb+/NzY3Qk1iHfrWmGK/cLcVxtarOHKdg2WYvVr8TNCdsC7psZ4iENw9mdMmU6+5FYokXNQ5rki9QAQKPDmGEr38FP34oL30jkOjCABoDHQ6EemKfBJOp9wotXtQXl5wuPl1XCx7le6AQZMbtQchrtBGjf8QNT623sgbTM8OGfliTS0+4JqG/lyWqhgNpiWrFgPn0STf+CjCvJnmDR4kfWOQylZ13lg+l/l+0eS8LSDq2RR09A3rtYzOVksUm+bBUBSPev7Vvx3ALRqfBzEEKZnST/t8d+p+aHb0MuavwrrNQk6ollJaKT2sHjTXdgwGF0Gbo8/dLMxfzg5Jv9zSJf4F2TtwthQwFv7Nwa61zsV1eXPDmDR1jOHyGqbPNNOY6audbEh7l57WOUo4uOxCyp7CPHnn8dLmKJT8M/owD9AGSchrfpPd8bFVHVAqKvxAqhB8UEduoPnJCpMWEf+ia2gD0Xat1/1fr+c4lEY3hYWN8R0IoXLVW0CXOmDPNoRDBrGFU4vd/FZYMovu+w=
+    secure: $GITAUTH
   file_glob: true
   file: build/distributions/*.zip
   skip_cleanup: true
   on:
     tags: true
-    repo: IBM-UrbanCode/Jenkins-Job-Manager-UCD
+    repo: DasJayYa/Jenkins-Job-Manager-UCD
