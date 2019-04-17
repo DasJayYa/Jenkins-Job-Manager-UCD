@@ -4,7 +4,7 @@
 * Email: virkantsnirban@hotmail.com
 * Email: vikrantsnirban@irissoftware.com
 */
-import hudson.cli
+import hudson.cli.CLI
 import com.urbancode.air.AirPluginTool;
 
 
